@@ -36,7 +36,7 @@ Each competition folder contains:
 | # | Competition Name | Type | Status | Rank / Score |
 |---|------------------|------|--------|--------------|
 | 1 | **Diabetes Prediction challenge** | Beginner | ✅ Completed | 2601 |
-| 2 | Upcoming | — | ⏳ Planned | — |
+| 2 | **Predicting_Student_Test_Score | Begineer | ✅ Completed| — |
 
 > This table will be updated as I participate in more competitions.
 
