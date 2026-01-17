@@ -26,6 +26,7 @@ This is a **supervised regression problem**.
 ├── code.ipynb          # Complete ML pipeline (EDA → Modeling → Prediction)
 ├── requirements.txt    # Python dependencies
 ├── submission.csv      # Final Kaggle submission file
+├── data/               # Dataset folder (download from Kaggle)
 └── README.md           # Project documentation
 ```
 
@@ -38,7 +39,6 @@ The dataset is provided by Kaggle.
 🔗 **Dataset Link:**  
 👉 https://www.kaggle.com/competitions/playground-series-s6e1/data
 
-
 ### Dataset Description
 - **Train data:** Features + target (`exam_score`)
 - **Test data:** Features only (used for final prediction)
@@ -48,7 +48,7 @@ The dataset is provided by Kaggle.
 
 ## ⚙️ Tech Stack & Libraries
 
-- Python 
+- Python
 - NumPy
 - Pandas
 - Scikit-learn
@@ -107,16 +107,25 @@ The XGBoost model provided the best overall performance and was selected for the
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/KALYANSAI-3114/Kaggle-Competitions.git
+cd Predicting_Student_Test_Score
 ```
 
-### 2️⃣ Install dependencies
+### 2️⃣ Download the dataset
+Download the dataset from Kaggle and store it in a `data/` folder:
+```bash
+mkdir data
+```
+Place the following files in the `data/` folder:
+- `train.csv`
+- `test.csv`
+
+### 3️⃣ Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Run the notebook
+### 4️⃣ Run the notebook
 Open `code.ipynb` and run all cells to reproduce results and predictions.
 
 ---
@@ -150,4 +159,3 @@ Upload this file directly to the competition submission page.
 
 **Kalyan Sai Atchi**  
 Machine Learning Enthusiast | Kaggle Practitioner
-
